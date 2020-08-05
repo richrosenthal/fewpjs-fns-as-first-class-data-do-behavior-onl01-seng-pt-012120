@@ -28,9 +28,3 @@ function greet(time){
 
 
 /* Write your implementation of displayMessage() */
-document.querySelector("greeting").addEventListener("click", handleClick);
-
-function handleClick(e) {
-  const timeString = document.getElementById('time').value
-  displayMessage(greet(timeString))
-}
