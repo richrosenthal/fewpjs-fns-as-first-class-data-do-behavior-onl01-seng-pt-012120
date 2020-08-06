@@ -32,6 +32,6 @@ function greet(oldTime){
 /* Write your implementation of displayMessage() */
 function displayMessage(time) {
   let element = document.querySelector("h1#greeting")
-  element.innerHTML = greet(time)
+  element.innerHTML = time 
   
 }
